@@ -12,20 +12,20 @@ Note that the project contains extensions not only for JavaScript but for other 
 
 #### JavaScript Functions
 
-[`base64Decode`](https://github.com/websanova/wExtensions/js-functions/base64Decode/README.md)
-[`base64Encode`](https://github.com/websanova/wExtensions/js-functions/base64Encode/README.md)
-[`capitalize`](https://github.com/websanova/wExtensions/js-functions/capitalize/README.md)
-[`reverse`](https://github.com/websanova/wExtensions/js-functions/reverse/README.md)
+[`base64Decode`](https://github.com/websanova/wExtensions/tree/master/js-functions/base64Decode)
+[`base64Encode`](https://github.com/websanova/wExtensions/tree/master/js-functions/base64Encode)
+[`capitalize`](https://github.com/websanova/wExtensions/tree/master/js-functions/capitalize)
+[`reverse`](https://github.com/websanova/wExtensions/tree/master/js-functions/reverse)
 [`rgbHex`](https://github.com/websanova/rgbHex)
-[`shuffleArray`](https://github.com/websanova/wExtensions/js-functions/shuffleArray/README.md)
-[`stripTags`](https://github.com/websanova/wExtensions/js-functions/stripTags/README.md)
-[`timer`](https://github.com/websanova/wExtensions/js-functions/timer/README.md)
-[`trim`](https://github.com/websanova/wExtensions/js-functions/trim/README.md)
+[`shuffleArray`](https://github.com/websanova/wExtensions/tree/master/js-functions/shuffleArray)
+[`stripTags`](https://github.com/websanova/wExtensions/tree/master/js-functions/stripTags)
+[`timer`](https://github.com/websanova/wExtensions/tree/master/js-functions/timer)
+[`trim`](https://github.com/websanova/wExtensions/tree/master/js-functions/trim)
 [`url`](https://github.com/websanova/js-url)
-[`utf8Decode`](https://github.com/websanova/wExtensions/js-functions/utf8Decode/README.md)
-[`utf8Encode`](https://github.com/websanova/wExtensions/js-functions/utf8Encode/README.md)
-[`wordcount`](https://github.com/websanova/wExtensions/js-functions/wordcount/README.md)
-[`mousestop`](https://github.com/websanova/wExtensions/js-functions/mousestop/README.md)
+[`utf8Decode`](https://github.com/websanova/wExtensions/tree/master/js-functions/utf8Decode)
+[`utf8Encode`](https://github.com/websanova/wExtensions/tree/master/js-functions/utf8Encode)
+[`wordcount`](https://github.com/websanova/wExtensions/tree/master/js-functions/wordcount)
+[`mousestop`](https://github.com/websanova/wExtensions/tree/master/js-functions/mousestop)
 
 
 #### jQuery Methods
