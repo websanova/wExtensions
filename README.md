@@ -12,20 +12,20 @@ Note that the project contains extensions not only for JavaScript but for other 
 
 #### JavaScript Functions
 
-[`base64Decode`](https://github.com/websanova/wExtensions/base64Decode/README.md)
-[`base64Encode`](https://github.com/websanova/wExtensions/base64Encode/README.md)
-[`capitalize`](https://github.com/websanova/wExtensions/capitalize/README.md)
-[`reverse`](https://github.com/websanova/wExtensions/reverse/README.md)
+[`base64Decode`](https://github.com/websanova/wExtensions/js-functions/base64Decode/README.md)
+[`base64Encode`](https://github.com/websanova/wExtensions/js-functions/base64Encode/README.md)
+[`capitalize`](https://github.com/websanova/wExtensions/js-functions/capitalize/README.md)
+[`reverse`](https://github.com/websanova/wExtensions/js-functions/reverse/README.md)
 [`rgbHex`](https://github.com/websanova/rgbHex)
-[`shuffleArray`](https://github.com/websanova/wExtensions/shuffleArray/README.md)
-[`stripTags`](https://github.com/websanova/wExtensions/stripTags/README.md)
-[`timer`](https://github.com/websanova/wExtensions/timer/README.md)
-[`trim`](https://github.com/websanova/wExtensions/trim/README.md)
+[`shuffleArray`](https://github.com/websanova/wExtensions/js-functions/shuffleArray/README.md)
+[`stripTags`](https://github.com/websanova/wExtensions/js-functions/stripTags/README.md)
+[`timer`](https://github.com/websanova/wExtensions/js-functions/timer/README.md)
+[`trim`](https://github.com/websanova/wExtensions/js-functions/trim/README.md)
 [`url`](https://github.com/websanova/js-url)
-[`utf8Decode`](https://github.com/websanova/wExtensions/utf8Decode/README.md)
-[`utf8Encode`](https://github.com/websanova/wExtensions/utf8Encode/README.md)
-[`wordcount`](https://github.com/websanova/wExtensions/wordcount/README.md)
-[`mousestop`](https://github.com/websanova/wExtensions/mousestop/README.md)
+[`utf8Decode`](https://github.com/websanova/wExtensions/js-functions/utf8Decode/README.md)
+[`utf8Encode`](https://github.com/websanova/wExtensions/js-functions/utf8Encode/README.md)
+[`wordcount`](https://github.com/websanova/wExtensions/js-functions/wordcount/README.md)
+[`mousestop`](https://github.com/websanova/wExtensions/js-functions/mousestop/README.md)
 
 
 #### jQuery Methods
