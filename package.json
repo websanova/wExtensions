@@ -1,0 +1,19 @@
+{
+  "name": "wExtensions",
+  "version": "1.0.0",
+  "description": "A collection of JavaScript extensions.",
+  "main": "index.html",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/websanova/wExtensions"
+  },
+  "author": {
+    "name" : "Websanova"
+  },
+  "homepage" : "https://github.com/websanova/wExtensions#wextensions",
+  "license": "MIT, GPL",
+  "dependencies": {
+    "grunt-contrib-qunit": "",
+    "grunt-contrib-jshint": ""
+  }
+}
