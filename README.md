@@ -12,20 +12,20 @@ Note that the project contains extensions not only for JavaScript but for other 
 
 #### JavaScript Functions
 
-[`base64Decode`]()
-[`base64Encode`]()
-[`capitalize`]()
-[`reverse`]()
+[`base64Decode`](https://github.com/websanova/wExtensions/base64Decode/README.md)
+[`base64Encode`](https://github.com/websanova/wExtensions/base64Encode/README.md)
+[`capitalize`](https://github.com/websanova/wExtensions/capitalize/README.md)
+[`reverse`](https://github.com/websanova/wExtensions/reverse/README.md)
 [`rgbHex`](https://github.com/websanova/rgbHex)
-[`shuffleArray`]()
-[`stripTags`]()
-[`timer`]() - for game loops (wTimer)
-[`trim`]() - with arg on what to trim
+[`shuffleArray`](https://github.com/websanova/wExtensions/shuffleArray/README.md)
+[`stripTags`](https://github.com/websanova/wExtensions/stripTags/README.md)
+[`timer`](https://github.com/websanova/wExtensions/timer/README.md)
+[`trim`](https://github.com/websanova/wExtensions/trim/README.md)
 [`url`](https://github.com/websanova/js-url)
-[`utf8Decode`]()
-[`utf8Encode`]()
-[`wordcount`]()
-[`mousestop`]()
+[`utf8Decode`](https://github.com/websanova/wExtensions/utf8Decode/README.md)
+[`utf8Encode`](https://github.com/websanova/wExtensions/utf8Encode/README.md)
+[`wordcount`](https://github.com/websanova/wExtensions/wordcount/README.md)
+[`mousestop`](https://github.com/websanova/wExtensions/mousestop/README.md)
 
 
 #### jQuery Methods
