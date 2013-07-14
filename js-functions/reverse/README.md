@@ -2,7 +2,7 @@
 
 ## About
 
-Reverse a String.
+A JavaScript extension of the String object to reverse a string.
 
 ## Examples
 

@@ -1,0 +1,10 @@
+{
+  "name": "reverse",
+  "version": "1.0.0",
+  "description": "A JavaScript extension of the String object to reverse a string.",
+  "homepage" : "https://github.com/websanova/wExtensions/tree/master/js-functions/reverse",
+  "author": {
+    "name" : "Websanova",
+    "url" : "http://websanova.com"
+  }
+}
