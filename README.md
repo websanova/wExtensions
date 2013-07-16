@@ -2,16 +2,6 @@
 
 A collection of JavaScript extensions.
 
-
-## Project Goals
-
-The goal of this project is to be able to quickly add uncommonly used functions into any project without having to always search Google or look through old code by putting them all in one easily accessible spot.  It also lets us fix any bugs and have the latest versions available for use in the future.  Each extensions directory contains documentation and a test file making it easer for developers to make contributions by either submitting a test case or making bug fixes to individual extensions.
-
-What qualifies as an entry is something that is a small(ish) piece of code that should for more or less have a "best" solution.  For instance there is probably a best way to write a way to convert rgb values to hex values.  But something like a tooltip plugin may have many implementations each of which are equally viable.  Therefore we want to focus on smaller code snippets and utitlity type functions that we can just toss into our projects when needed.
-
-Note that the project contains extensions not only for JavaScript but for other popular libraries like jQuery.  Feel free to add folders for any other libraries you may want to add to this project.
-
-
 #### JavaScript Functions
 
 [`base64Decode`](https://github.com/websanova/wExtensions/tree/master/js-functions/base64Decode#windowbase64decode)
@@ -26,7 +16,6 @@ Note that the project contains extensions not only for JavaScript but for other 
 [`utf8Encode`](https://github.com/websanova/wExtensions/tree/master/js-functions/utf8Encode#windowutf8encode)
 [`wordcount`](https://github.com/websanova/wExtensions/tree/master/js-functions/wordcount#stringwordcount)
 
-
 #### jQuery Methods
 
 [`caretPosition`](https://github.com/websanova/wExtensions/tree/master/jquery-methods/caretPosition#caretposition)
@@ -36,6 +25,15 @@ Note that the project contains extensions not only for JavaScript but for other 
 [`lineCount`](https://github.com/websanova/wExtensions/tree/master/jquery-methods/lineCount#linecount)
 [`mousestop`](https://github.com/websanova/mousestop#mousestopjs)
 [`removeClassRegex`](https://github.com/websanova/wExtensions/tree/master/jquery-methods/removeClassRegex#removeclassregex)
+
+
+## Project Goals
+
+The goal of this project is to be able to quickly add uncommonly used functions into any project without having to always search Google or look through old code by putting them all in one easily accessible spot.  It also lets us fix any bugs and have the latest versions available for use in the future.  Each extensions directory contains documentation and a test file making it easer for developers to make contributions by either submitting a test case or making bug fixes to individual extensions.
+
+What qualifies as an entry is something that is a small(ish) piece of code that should for more or less have a "best" solution.  For instance there is probably a best way to write a way to convert rgb values to hex values.  But something like a tooltip plugin may have many implementations each of which are equally viable.  Therefore we want to focus on smaller code snippets and utitlity type functions that we can just toss into our projects when needed.
+
+Note that the project contains extensions not only for JavaScript but for other popular libraries like jQuery.  Feel free to add folders for any other libraries you may want to add to this project.
 
 
 ## Running Test Cases
