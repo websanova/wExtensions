@@ -2,7 +2,7 @@
 
 ## About
 
-Base64 encode a string.
+Base64 encode a string.  Note that this also requires the [utf8Encode](https://github.com/websanova/wExtensions/tree/master/js-functions/utf8Encode) function.
 
 ## Examples
 

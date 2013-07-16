@@ -2,7 +2,7 @@
 
 ## About
 
-Decode base64 encoded string.
+Decode base64 encoded string.  Note that this also requires the [utf8Decode](https://github.com/websanova/wExtensions/tree/master/js-functions/utf8Decode) function.
 
 ## Examples
 

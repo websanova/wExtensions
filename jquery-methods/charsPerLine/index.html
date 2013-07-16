@@ -1,0 +1,40 @@
+<!doctype html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <title>.charsPerLine()</title>
+
+    <script src="../../assets/jquery.1.9.1.min.js"></script>
+    <script src="./charsPerLine.js"></script>
+</head>
+<body>
+
+    <style>
+        #demo-textarea, #demo-input {
+            resize: none;
+            line-height: 20px;
+        }
+        #demo-textarea {
+            width: 600px;
+            height: 60px;
+            border: none;
+            padding: none;
+            background-color: yellow;
+        }
+    </style>
+
+    <textarea id="demo-textarea">testing123</textarea><br/>
+    <input id="demo-input" type="text" value="testing123"/><br/>
+    <div id="demo-div">div test</div><br/>
+    <input id="demo-button" type="button" value="click me" onclick="run()"/>
+
+    <script type="text/javascript">
+        function run() {
+            console.log($('#demo-textarea').charsPerLine());
+            console.log($('#demo-input').charsPerLine());
+            console.log($('#demo-div').charsPerLine());
+            console.log($('#demo-button').charsPerLine());
+        }
+    </script>
+</body>
+</html>

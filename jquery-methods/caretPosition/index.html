@@ -1,0 +1,21 @@
+<!doctype html>
+<html>
+<head>
+     <meta charset="utf-8">
+      <title>.caretPosition()</title>
+
+    <script src="../../assets/jquery.1.9.1.min.js"></script>
+    <script src="./caretPosition.js"></script>
+</head>
+<body>
+    <textarea id="demo">testing123</textarea>
+
+    <script type="text/javascript">
+    	$('#demo').keyup(function(){
+    		console.log($('#demo').caretPosition());
+    	});
+
+    	$('#demo').caretPosition(5, 10);
+    </script>
+</body>
+</html>

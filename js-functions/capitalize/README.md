@@ -2,7 +2,7 @@
 
 ## About
 
-Capitalize a String.
+A JavaScript extension of the String object to capitalize a String.
 
 ## Examples
 

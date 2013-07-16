@@ -1,0 +1,10 @@
+{
+  "name": "wordcount",
+  "version": "1.0.0",
+  "description": "A JavaScript extension of the String object to count the number of words based on separation by a space.",
+  "homepage" : "https://github.com/websanova/wExtensions/tree/master/js-functions/wordcount",
+  "author": {
+    "name" : "Websanova",
+    "url" : "http://websanova.com"
+  }
+}

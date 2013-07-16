@@ -2,7 +2,7 @@ module.exports = function(grunt) {
   grunt.initConfig({
     pkg: grunt.file.readJSON('package.json'),
     qunit: {
-      files: ['./js-functions/**/index.html']
+      files: ['./js-functions/**/index.html', './jquery-methods/**/index.html']
     },
     jshint: {
       options: {
@@ -18,9 +18,11 @@ module.exports = function(grunt) {
         eqnull: true,
         globals: {
           'window': true,
+          'document': true,
           'jQuery': true,
           'test': true,
-          'equal': true
+          'equal': true,
+          '$': true
         }
       },
       files: {

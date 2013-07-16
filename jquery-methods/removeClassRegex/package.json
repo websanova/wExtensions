@@ -1,0 +1,10 @@
+{
+  "name": "removeClassRegex",
+  "version": "1.0.0",
+  "description": "Similar to the jQuery `removeClass` function except that it allows for regular expression pattern matching.  This method allows jQuery method chaining and will return the elements with the modified classes after it's called.",
+  "homepage" : "https://github.com/websanova/wExtensions/tree/master/jquery-methods/removeClassRegex",
+  "author": {
+    "name" : "Websanova",
+    "url" : "http://websanova.com"
+  }
+}

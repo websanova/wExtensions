@@ -1,0 +1,39 @@
+<!doctype html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <title>.lineCount()</title>
+
+    <script src="../../assets/jquery.1.9.1.min.js"></script>
+    <script src="./lineCount.js"></script>
+</head>
+<body>
+
+    <style>
+        #demo-textarea, #demo-input {
+            resize: none;
+            height: 20px;
+            line-height: 20px;
+        }
+    </style>
+
+    <textarea id="demo-textarea"></textarea>
+    <input id="demo-input" type="text"/>
+    <input id="demo-button" type="button" value="button test"/>
+    <div id="demo-div">div test</div>
+
+    <script type="text/javascript">
+        $('#demo-textarea').keyup(function() {
+            var $this = $(this);
+            $this.height(parseInt($this.css('lineHeight')) * $this.lineCount());
+        });
+
+        $('#demo-input').keyup(function() {
+            console.log($(this).lineCount());
+        });
+
+        console.log($('#demo-button').lineCount());
+        console.log($('#demo-div').lineCount());
+    </script>
+</body>
+</html>
