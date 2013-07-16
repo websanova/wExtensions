@@ -2,7 +2,10 @@
   "name": "caretPosition",
   "version": "1.0.0",
   "description": "Get caret position index in textarea or text input.  Also set the caret position or highlight range.",
-  "homepage" : "https://github.com/websanova/wExtensions/tree/master/jquery-methods/caretPosition",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/websanova/wExtensions/tree/master/jquery-methods/caretPosition"
+  },
   "author": {
     "name" : "Websanova",
     "url" : "http://websanova.com"

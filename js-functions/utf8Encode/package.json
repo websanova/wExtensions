@@ -2,7 +2,10 @@
   "name": "utf8Encode",
   "version": "1.0.0",
   "description": "Utf8 encode a string.",
-  "homepage" : "https://github.com/websanova/wExtensions/tree/master/js-functions/utf8Encode",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/websanova/wExtensions/tree/master/js-functions/utf8Encode"
+  },
   "author": {
     "name" : "Websanova",
     "url" : "http://websanova.com"

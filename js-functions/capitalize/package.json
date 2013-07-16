@@ -2,7 +2,10 @@
   "name": "capitalize",
   "version": "1.0.0",
   "description": "A JavaScript extension of the String object to capitalize a String.",
-  "homepage" : "https://github.com/websanova/wExtensions/tree/master/js-functions/capitalize",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/websanova/wExtensions/tree/master/js-functions/capitalize"
+  },
   "author": {
     "name" : "Websanova",
     "url" : "http://websanova.com"

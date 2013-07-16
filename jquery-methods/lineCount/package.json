@@ -2,7 +2,10 @@
   "name": "lineCount",
   "version": "1.0.0",
   "description": "Get number of actual lines in a textarea or text input.  For textarea it will try to calculate the actual number of lines, for text input it will return `1` and for all other elements it will return `0`.",
-  "homepage" : "https://github.com/websanova/wExtensions/tree/master/jquery-methods/lineCount",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/websanova/wExtensions/tree/master/jquery-methods/lineCount"
+  },
   "author": {
     "name" : "Websanova",
     "url" : "http://websanova.com"

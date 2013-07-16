@@ -2,7 +2,10 @@
   "name": "charsPerLine",
   "version": "1.0.0",
   "description": "This function returns an array of values where each value represents a line in the textarea.  Each value contains an object with some properties for each line.  The plugin handles both line breaks using `\\n\\r` and word wrapping where no line breaks occur.",
-  "homepage" : "https://github.com/websanova/wExtensions/tree/master/jquery-methods/charsPerLine",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/websanova/wExtensions/tree/master/jquery-methods/charsPerLine"
+  },
   "author": {
     "name" : "Websanova",
     "url" : "http://websanova.com"

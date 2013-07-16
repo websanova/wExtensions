@@ -2,7 +2,10 @@
   "name": "utf8Decode",
   "version": "1.0.0",
   "description": "Decode utf8 encoded string.",
-  "homepage" : "https://github.com/websanova/wExtensions/tree/master/js-functions/utf8Decode",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/websanova/wExtensions/tree/master/js-functions/utf8Decode"
+  },
   "author": {
     "name" : "Websanova",
     "url" : "http://websanova.com"
