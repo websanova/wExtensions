@@ -14,28 +14,28 @@ Note that the project contains extensions not only for JavaScript but for other 
 
 #### JavaScript Functions
 
-[`base64Decode`](https://github.com/websanova/wExtensions/tree/master/js-functions/base64Decode)
-[`base64Encode`](https://github.com/websanova/wExtensions/tree/master/js-functions/base64Encode)
-[`capitalize`](https://github.com/websanova/wExtensions/tree/master/js-functions/capitalize)
-[`reverse`](https://github.com/websanova/wExtensions/tree/master/js-functions/reverse)
-[`rgbHex`](https://github.com/websanova/rgbHex)
-[`stripTags`](https://github.com/websanova/wExtensions/tree/master/js-functions/stripTags)
-[`trimRegex`](https://github.com/websanova/wExtensions/tree/master/js-functions/trimRegex)
-[`url`](https://github.com/websanova/js-url)
-[`utf8Decode`](https://github.com/websanova/wExtensions/tree/master/js-functions/utf8Decode)
-[`utf8Encode`](https://github.com/websanova/wExtensions/tree/master/js-functions/utf8Encode)
-[`wordcount`](https://github.com/websanova/wExtensions/tree/master/js-functions/wordcount)
+[`base64Decode`](https://github.com/websanova/wExtensions/tree/master/js-functions/base64Decode#windowbase64decode)
+[`base64Encode`](https://github.com/websanova/wExtensions/tree/master/js-functions/base64Encode#windowbase64encode)
+[`capitalize`](https://github.com/websanova/wExtensions/tree/master/js-functions/capitalize#stringcapitalize)
+[`reverse`](https://github.com/websanova/wExtensions/tree/master/js-functions/reverse#stringreverse)
+[`rgbHex`](https://github.com/websanova/rgbHex#rgbhex)
+[`stripTags`](https://github.com/websanova/wExtensions/tree/master/js-functions/stripTags#stringstriptags)
+[`trimRegex`](https://github.com/websanova/wExtensions/tree/master/js-functions/trimRegex#stringtrimregex)
+[`url`](https://github.com/websanova/js-url#url)
+[`utf8Decode`](https://github.com/websanova/wExtensions/tree/master/js-functions/utf8Decode#windowutf8decode)
+[`utf8Encode`](https://github.com/websanova/wExtensions/tree/master/js-functions/utf8Encode#windowutf8encode)
+[`wordcount`](https://github.com/websanova/wExtensions/tree/master/js-functions/wordcount#stringwordcount)
 
 
 #### jQuery Methods
 
-[`caretPosition`](https://github.com/websanova/wExtensions/tree/master/jquery-methods/caretPosition)
-[`charsPerLine`](https://github.com/websanova/wExtensions/tree/master/jquery-methods/charsPerLine)
-[`hasClassRegex`](https://github.com/websanova/wExtensions/tree/master/jquery-methods/hasClassRegex)
-[`hasScrollbar`](https://github.com/websanova/wExtensions/tree/master/jquery-methods/hasScrollbar)
-[`lineCount`](https://github.com/websanova/wExtensions/tree/master/jquery-methods/lineCount)
-[`mousestop`](https://github.com/websanova/mousestop)
-[`removeClassRegex`](https://github.com/websanova/wExtensions/tree/master/jquery-methods/removeClassRegex)
+[`caretPosition`](https://github.com/websanova/wExtensions/tree/master/jquery-methods/caretPosition#caretposition)
+[`charsPerLine`](https://github.com/websanova/wExtensions/tree/master/jquery-methods/charsPerLine#charsperline)
+[`hasClassRegex`](https://github.com/websanova/wExtensions/tree/master/jquery-methods/hasClassRegex#hasclassregex)
+[`hasScrollbar`](https://github.com/websanova/wExtensions/tree/master/jquery-methods/hasScrollbar#hasscrollbar)
+[`lineCount`](https://github.com/websanova/wExtensions/tree/master/jquery-methods/lineCount#linecount)
+[`mousestop`](https://github.com/websanova/mousestop#mousestopjs)
+[`removeClassRegex`](https://github.com/websanova/wExtensions/tree/master/jquery-methods/removeClassRegex#removeclassregex)
 
 
 ## Running Test Cases
