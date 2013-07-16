@@ -1,10 +1,3 @@
-/******************************************
- * window.utf8Encode()
- *
- * @author		Websanova
- * @link        http://www.websanova.com
- ******************************************/
-
 window.utf8Encode = (function() {
     return function(string) {
         string = string.replace(/\r\n/g,"\n");

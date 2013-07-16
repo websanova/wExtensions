@@ -1,10 +1,3 @@
-/******************************************
- * window.utf8Decode()
- *
- * @author		Websanova
- * @link        http://www.websanova.com
- ******************************************/
-
 window.utf8Decode = (function() {
     return function(utftext) {
         var string = "",
