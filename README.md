@@ -9,6 +9,7 @@ A collection of JavaScript extensions.
 [`capitalize`](https://github.com/websanova/wExtensions/tree/master/js-functions/capitalize#stringcapitalize)
 [`reverse`](https://github.com/websanova/wExtensions/tree/master/js-functions/reverse#stringreverse)
 [`rgbHex`](https://github.com/websanova/rgbHex#rgbhex)
+[`shuffleArray`](https://github.com/websanova/wExtensions/tree/master/js-functions/shuffleArray#windowshufflearray)
 [`stripTags`](https://github.com/websanova/wExtensions/tree/master/js-functions/stripTags#stringstriptags)
 [`trimRegex`](https://github.com/websanova/wExtensions/tree/master/js-functions/trimRegex#stringtrimregex)
 [`url`](https://github.com/websanova/js-url#url)
