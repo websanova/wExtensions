@@ -8,7 +8,6 @@ A JavaScript extension to randomly shuffle an array.
 
 ```js
 window.shuffleArray([1, 2, 3, 4, 5]);   // [5, 3, 4, 1, 2]
-$.shuffleArray([1, 2, 3, 4, 5]); // [5, 3, 4, 1, 2]
 ```
 
 ## Author

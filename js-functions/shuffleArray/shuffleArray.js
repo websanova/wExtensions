@@ -4,9 +4,3 @@ window.shuffleArray = (function() {
 		return arr;
 	}
 })();
-
-if(jQuery) {
-    jQuery.extend({
-        shuffleArray: function(arr) { return window.shuffleArray(arr); }
-    });
-}
