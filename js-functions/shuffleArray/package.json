@@ -1,0 +1,13 @@
+{
+  "name": "shuffleArray",
+  "version": "1.0.0",
+  "description": "A JavaScript extension of the Array object to randomly shuffle an array.",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/websanova/wExtensions/tree/master/js-functions/shuffleArray"
+  },
+  "author": {
+    "name" : "Websanova",
+    "url" : "http://websanova.com"
+  }
+}
