@@ -1,6 +1,6 @@
-if(!String.prototype.trimRegex)
+if(!String.prototype.trimChar)
 {
-	Object.defineProperty(String.prototype, 'trimRegex',
+	Object.defineProperty(String.prototype, 'trimChar',
 	{
 		value: function(c)
 		{

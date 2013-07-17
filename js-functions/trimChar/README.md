@@ -1,4 +1,4 @@
-# String.trimRegex()
+# String.trimChar()
 
 ## About
 
@@ -7,9 +7,9 @@ A JavaScript extension of the String object to trim a string.  It also accepts a
 ## Examples
 
 ```js
-"  hello world  ".trimRegex(); // "hello world"
-"aahello worldaa".trimRegex('a'); // "hello world"
-"$$hello world$$".trimRegex('$'); // "hello world"
+"  hello world  ".trimChar(); // "hello world"
+"aahello worldaa".trimChar('a'); // "hello world"
+"$$hello world$$".trimChar('$'); // "hello world"
 ```
 
 ## Author

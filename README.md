@@ -11,7 +11,7 @@ A collection of JavaScript extensions.
 [`rgbHex`](https://github.com/websanova/rgbHex#rgbhex)
 [`shuffleArray`](https://github.com/websanova/wExtensions/tree/master/js-functions/shuffleArray#windowshufflearray)
 [`stripTags`](https://github.com/websanova/wExtensions/tree/master/js-functions/stripTags#stringstriptags)
-[`trimRegex`](https://github.com/websanova/wExtensions/tree/master/js-functions/trimRegex#stringtrimregex)
+[`trimChar`](https://github.com/websanova/wExtensions/tree/master/js-functions/trimChar#stringtrimchar)
 [`url`](https://github.com/websanova/js-url#url)
 [`utf8Decode`](https://github.com/websanova/wExtensions/tree/master/js-functions/utf8Decode#windowutf8decode)
 [`utf8Encode`](https://github.com/websanova/wExtensions/tree/master/js-functions/utf8Encode#windowutf8encode)
