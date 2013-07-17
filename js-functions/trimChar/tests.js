@@ -1,6 +1,6 @@
 (function() {
 
-test('wordcount', function() {
+test('trimChar', function() {
   equal( 'hello world'.trimChar(), 'hello world' );
   equal( '   hello world   '.trimChar(), 'hello world' );
   equal( '   hello world   '.trimChar(' '), 'hello world' );
@@ -14,6 +14,10 @@ test('wordcount', function() {
   equal( '^^^hello world^^^'.trimChar('^'), 'hello world' );
   equal( '???hello world???'.trimChar('?'), 'hello world' );
   equal( '\\\\\\hello world\\\\\\'.trimChar('\\'), 'hello world' );
+
+  equal( '^^^hello world$$$'.trimChar('^'), 'hello world$$$' );
+  equal( '^^^hello world$$$'.trimChar('$'), '^^^hello world' );
+  equal( '^^^hello world$$$'.trimChar('^').trimChar('$'), 'hello world' );
 });
 
 }());

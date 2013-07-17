@@ -7,7 +7,7 @@ if(!String.prototype.trimChar)
 			if (!c || c === ' ') { c = '\\s'; }
 			else if (c.match(/[\$\+\(\)\+\.\*\^\?\\]/)) { c = '\\' + c; }
 			
-			return this.replace(new RegExp('^' + c + '*', 'g'), "").replace(new RegExp(c + '*$', 'g'), "");
+			return this.replace(new RegExp('^' + c + '+|' + c + '+$', 'g'), "");
 		},
 		enumerable: false
 	});

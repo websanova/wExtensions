@@ -1,6 +1,6 @@
 {
   "name": "trimChar",
-  "version": "1.0.0",
+  "version": "1.1.0",
   "description": "A JavaScript extension of the String object to trim a string.  It also accepts an argument allowing you to specify the character to trim.",
   "repository": {
     "type": "git",
