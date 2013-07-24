@@ -12,6 +12,7 @@ A collection of JavaScript extensions.
 [`shuffleArray`](https://github.com/websanova/wExtensions/tree/master/js-functions/shuffleArray#windowshufflearray)
 [`stripTags`](https://github.com/websanova/wExtensions/tree/master/js-functions/stripTags#stringstriptags)
 [`trimChar`](https://github.com/websanova/wExtensions/tree/master/js-functions/trimChar#stringtrimchar)
+[`uniqueId`](https://github.com/websanova/wExtensions/tree/master/js-functions/uniqueId#windowuniqueid)
 [`url`](https://github.com/websanova/js-url#url)
 [`utf8Decode`](https://github.com/websanova/wExtensions/tree/master/js-functions/utf8Decode#windowutf8decode)
 [`utf8Encode`](https://github.com/websanova/wExtensions/tree/master/js-functions/utf8Encode#windowutf8encode)

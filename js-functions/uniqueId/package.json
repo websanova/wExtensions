@@ -1,0 +1,13 @@
+{
+  "name": "uniqueId",
+  "version": "1.0.0",
+  "description": "A JavaScript funciton to return a random string.  The default length is 6 but it also accetps an argument for length.",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/websanova/wExtensions/tree/master/js-functions/uniqueId"
+  },
+  "author": {
+    "name" : "Websanova",
+    "url" : "http://websanova.com"
+  }
+}
