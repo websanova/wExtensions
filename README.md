@@ -28,6 +28,10 @@ A collection of JavaScript extensions.
 [`mousestop`](https://github.com/websanova/mousestop#mousestopjs)
 [`removeClassRegex`](https://github.com/websanova/wExtensions/tree/master/jquery-methods/removeClassRegex#removeclassregex)
 
+#### HTML5
+
+[`fillArea`](https://github.com/websanova/wExtensions/tree/master/html5/fillArea#ctxfillarea)
+
 
 ## Project Goals
 
