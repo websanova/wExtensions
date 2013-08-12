@@ -6,6 +6,6 @@ CanvasRenderingContext2D.prototype.triangle = function(x, y, width, height) {
   this.moveTo(x + width/2, y);
   this.lineTo(x, y + height);
   this.lineTo(x + width, y + height);
-  this.lineTo(x +width/2, y);
+  this.lineTo(x + width/2, y);
   this.closePath();  
 };

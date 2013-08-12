@@ -1,0 +1,13 @@
+{
+  "name": "pentagon",
+  "version": "1.0.0",
+  "description": "A canvas extension for drawing a regular pentagon with equal sides.  The function accetps x, y, width and height parameters.",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/websanova/wExtensions/tree/master/html5/pentagon"
+  },
+  "author": {
+    "name" : "Websanova",
+    "url" : "http://websanova.com"
+  }
+}

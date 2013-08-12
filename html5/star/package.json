@@ -1,0 +1,13 @@
+{
+  "name": "star",
+  "version": "1.0.0",
+  "description": "A canvas extension for drawing a regular star with equal sides.  The function accetps x, y, width and height parameters.",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/websanova/wExtensions/tree/master/html5/star"
+  },
+  "author": {
+    "name" : "Websanova",
+    "url" : "http://websanova.com"
+  }
+}

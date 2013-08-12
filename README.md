@@ -33,7 +33,11 @@ A collection of JavaScript extensions.
 
 [`ellipse`](https://github.com/websanova/wExtensions/tree/master/html5/ellipse#ctxellipse)
 [`fillArea`](https://github.com/websanova/wExtensions/tree/master/html5/fillArea#ctxfillarea)
+[`hexagon`](https://github.com/websanova/wExtensions/tree/master/html5/hexagon#ctxhexagon)
+[`octagon`](https://github.com/websanova/wExtensions/tree/master/html5/octagon#ctxoctagon)
+[`pentagon`](https://github.com/websanova/wExtensions/tree/master/html5/pentagon#ctxpentagon)
 [`roundedRect`](https://github.com/websanova/wExtensions/tree/master/html5/roundedRect#ctxroundedrect)
+[`star`](https://github.com/websanova/wExtensions/tree/master/html5/star#ctxstar)
 [`triangle`](https://github.com/websanova/wExtensions/tree/master/html5/triangle#ctxtriangle)
 
 

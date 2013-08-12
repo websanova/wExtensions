@@ -1,0 +1,13 @@
+{
+  "name": "octagon",
+  "version": "1.0.0",
+  "description": "A canvas extension for drawing a regular octagon with equal sides.  The function accetps x, y, width and height parameters.",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/websanova/wExtensions/tree/master/html5/octagon"
+  },
+  "author": {
+    "name" : "Websanova",
+    "url" : "http://websanova.com"
+  }
+}
