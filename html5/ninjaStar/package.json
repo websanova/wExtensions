@@ -1,0 +1,13 @@
+{
+  "name": "ninjastar",
+  "version": "1.0.0",
+  "description": "An awesome ninja star shape extension for canvas.  The function accepts x, y, width and height parameters.",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/websanova/wExtensions/tree/master/html5/ninjastar"
+  },
+  "author": {
+    "name" : "Websanova",
+    "url" : "http://websanova.com"
+  }
+}
