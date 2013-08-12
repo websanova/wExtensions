@@ -1,0 +1,13 @@
+{
+  "name": "fillArea",
+  "version": "1.0.0",
+  "description": "A bucket/fill tool extension for HTML5 canvas.  The file is a drop in and will extend the `ctx` object of your canvas.",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/websanova/wExtensions/tree/master/html5/fillArea"
+  },
+  "author": {
+    "name" : "Websanova",
+    "url" : "http://websanova.com"
+  }
+}

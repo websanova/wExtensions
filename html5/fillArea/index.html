@@ -1,0 +1,42 @@
+<!doctype html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <title>ctx.fillArea()</title>
+
+    <script src="../../assets/jquery.1.9.1.min.js"></script>
+    <script src="./fillArea.js"></script>
+</head>
+<body>
+    <h1>ctx.fillArea</h1>
+
+    <style>
+        canvas {
+            border: solid 1px;  
+        }
+    </style>
+
+    <canvas id="canvas1" width="200" height="100"></canvas>
+    <canvas id="canvas2" width="200" height="100"></canvas>
+    <canvas id="canvas3" width="200" height="100"></canvas>
+
+    <script type="text/javascript">
+        var time = null;
+
+        // canvas 1
+        time = (new Date()).getTime();
+        document.getElementById("canvas1").getContext("2d").fillArea(3, 3, '#FF0000');
+        console.log('#canvas1 fill time: ' + (((new Date()).getTime() - time) / 1000) );
+
+        // canvas 2
+        time = (new Date()).getTime();
+        document.getElementById("canvas2").getContext("2d").fillArea(197, 97, '#00FF00');
+        console.log('#canvas1 fill time: ' + (((new Date()).getTime() - time) / 1000) );
+
+        // canvas 3
+        time = (new Date()).getTime();
+        document.getElementById("canvas3").getContext("2d").fillArea(100, 50, '#0000FF');
+        console.log('#canvas1 fill time: ' + (((new Date()).getTime() - time) / 1000) );
+    </script>
+</body>
+</html>
