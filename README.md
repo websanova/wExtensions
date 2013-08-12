@@ -31,7 +31,10 @@ A collection of JavaScript extensions.
 
 #### HTML5
 
+[`ellipse`](https://github.com/websanova/wExtensions/tree/master/html5/ellipse#ctxellipse)
 [`fillArea`](https://github.com/websanova/wExtensions/tree/master/html5/fillArea#ctxfillarea)
+[`roundedRect`](https://github.com/websanova/wExtensions/tree/master/html5/roundedRect#ctxroundedrect)
+[`triangle`](https://github.com/websanova/wExtensions/tree/master/html5/triangle#ctxtriangle)
 
 
 ## Project Goals

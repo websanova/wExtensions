@@ -1,0 +1,13 @@
+{
+  "name": "roundedRect",
+  "version": "1.0.0",
+  "description": "Canvas extension for drawing rectangles with rounded corners.  The roundedRect function accepts x, y, width, height and radius values.",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/websanova/wExtensions/tree/master/html5/roundedRect"
+  },
+  "author": {
+    "name" : "Websanova",
+    "url" : "http://websanova.com"
+  }
+}

@@ -1,0 +1,45 @@
+<!doctype html>
+<html>
+<head>
+  <meta charset="utf-8">
+  <title>ctx.triangle()</title>
+
+  <script src="../../assets/jquery.1.9.1.min.js"></script>
+  <script src="./triangle.js"></script>
+</head>
+<body>
+  <h1>ctx.triangle()</h1>
+
+  <style>
+      canvas {
+          border: solid 1px;  
+      }
+  </style>
+
+  <canvas id="canvas" width="300" height="200"></canvas>
+
+  <script type="text/javascript">
+    var ctx = document.getElementById("canvas").getContext("2d");
+    
+    ctx.fillStyle = '#ff0000';
+    ctx.strokeStyle = '#000000';
+    ctx.triangle(3, 3, 100, 50);
+    ctx.fill();
+    ctx.stroke();
+
+    ctx.fillStyle = '#00ff00';
+    ctx.strokeStyle = '#000000';
+    ctx.lineWidth = 3;
+    ctx.triangle(80, 50, 100, 100);
+    ctx.fill();
+    ctx.stroke();
+
+    ctx.fillStyle = '#0000ff';
+    ctx.strokeStyle = '#000000';
+    ctx.lineWidth = 5;
+    ctx.triangle(210, 90, 50, 100);
+    ctx.fill();
+    ctx.stroke();
+  </script>
+</body>
+</html>
