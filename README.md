@@ -7,6 +7,7 @@ A collection of JavaScript extensions.
 [`base64Decode`](https://github.com/websanova/wExtensions/tree/master/js-functions/base64Decode#windowbase64decode)
 [`base64Encode`](https://github.com/websanova/wExtensions/tree/master/js-functions/base64Encode#windowbase64encode)
 [`capitalize`](https://github.com/websanova/wExtensions/tree/master/js-functions/capitalize#stringcapitalize)
+[`color2color`](https://github.com/indyarmy/color2color#color2color---javascript-function)
 [`reverse`](https://github.com/websanova/wExtensions/tree/master/js-functions/reverse#stringreverse)
 [`rgbHex`](https://github.com/websanova/rgbHex#rgbhex)
 [`shuffleArray`](https://github.com/websanova/wExtensions/tree/master/js-functions/shuffleArray#windowshufflearray)
