@@ -2,9 +2,6 @@ CanvasRenderingContext2D.prototype.star = function(x, y, width, height) {
   // if values are not set just exit
   if(!x || !y || !width || !height) { return true; }
 
-  var facShort = 0.2,
-  		facLong = 1 - facShort;
-
   this.beginPath();
   this.moveTo(x + width*0.5, y);
   this.lineTo(x + width*0.375, y + height*0.4);
