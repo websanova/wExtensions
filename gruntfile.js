@@ -22,17 +22,29 @@ module.exports = function(grunt) {
           'jQuery': true,
           'test': true,
           'equal': true,
-          '$': true
+          '$': true,
+          'CanvasRenderingContext2D': true
         }
       },
       files: {
-        src: ['./js-functions/**/*.js', './jquery-methods/**/*.js']
+        src: ['./js-functions/**/*.js', './jquery-methods/**/*.js', './html5/**/*.js']
+      }
+    },
+    uglify: {
+      options: {
+        banner: '/* <%= grunt.template.today("yyyy-mm-dd") %> */'
+      },
+      my_target: {
+        files: {
+          './js-functions/**/*.js': ['./src/wPaint.js']
+        }
       }
     }
   });
 
   grunt.loadNpmTasks('grunt-contrib-qunit');
   grunt.loadNpmTasks('grunt-contrib-jshint');
+  grunt.loadNpmTasks('grunt-contrib-uglify');
 
-  grunt.registerTask('default', [ 'qunit', 'jshint' ]);
+  grunt.registerTask('default', [ 'qunit', 'jshint', 'uglify' ]);
 };

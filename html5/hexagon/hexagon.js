@@ -6,13 +6,12 @@ CanvasRenderingContext2D.prototype.hexagon = function(x, y, width, height) {
   	  facLong = 1 - facShort;
 
   this.beginPath();
-  this.moveTo(x + width*facShort, y);
-  this.lineTo(x, y + height*0.5);
-  this.lineTo(x + width*facShort, y + height);
-  this.lineTo(x + width*facLong, y + height);
-  this.lineTo(x + width*facLong, y + height);
-  this.lineTo(x + width, y + height*0.5);
-  this.lineTo(x + width*facLong, y);
-  this.lineTo(x + width*facShort, y);
+  this.moveTo(x + width*0.5, y);
+  this.lineTo(x, y + height*facShort);
+  this.lineTo(x, y + height*facLong);
+  this.lineTo(x + width*0.5, y + height);
+  this.lineTo(x + width, y + height*facLong);
+  this.lineTo(x + width, y + height*facShort);
+  this.lineTo(x + width*0.5, y);
   this.closePath();  
 };
