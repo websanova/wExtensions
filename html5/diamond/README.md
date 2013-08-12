@@ -1,14 +1,14 @@
-# ctx.trapezoid()
+# ctx.diamond()
 
 ## About
 
-A canvas extension for drawing a regular trapezoid with equal sides.  The function accetps x, y, width and height parameters.
+A canvas extension for drawing a regular diamond with equal sides.  The function accetps x, y, width and height parameters.
 
 
 ## Examples
 
 ```js
-$('#canvas').trapezoid(x, y, width, height);
+$('#canvas').diamond(x, y, width, height);
 ```
 
 

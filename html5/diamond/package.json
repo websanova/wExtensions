@@ -1,10 +1,10 @@
 {
-  "name": "trapezoid",
+  "name": "diamond",
   "version": "1.0.0",
-  "description": "A canvas extension for drawing a regular trapezoid with equal sides.  The function accetps x, y, width and height parameters.",
+  "description": "A canvas extension for drawing a regular diamond with equal sides.  The function accetps x, y, width and height parameters.",
   "repository": {
     "type": "git",
-    "url": "https://github.com/websanova/wExtensions/tree/master/html5/trapezoid"
+    "url": "https://github.com/websanova/wExtensions/tree/master/html5/diamond"
   },
   "author": {
     "name" : "Websanova",

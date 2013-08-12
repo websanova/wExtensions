@@ -31,13 +31,17 @@ A collection of JavaScript extensions.
 
 #### HTML5
 
+[`diamond`](https://github.com/websanova/wExtensions/tree/master/html5/diamond#ctxdiamond)
 [`ellipse`](https://github.com/websanova/wExtensions/tree/master/html5/ellipse#ctxellipse)
 [`fillArea`](https://github.com/websanova/wExtensions/tree/master/html5/fillArea#ctxfillarea)
 [`hexagon`](https://github.com/websanova/wExtensions/tree/master/html5/hexagon#ctxhexagon)
+[`ninjastar`](https://github.com/websanova/wExtensions/tree/master/html5/ninjastar#ctxninjastar)
 [`octagon`](https://github.com/websanova/wExtensions/tree/master/html5/octagon#ctxoctagon)
+[`parallelogram`](https://github.com/websanova/wExtensions/tree/master/html5/parallelogram#ctxparallelogram)
 [`pentagon`](https://github.com/websanova/wExtensions/tree/master/html5/pentagon#ctxpentagon)
 [`roundedRect`](https://github.com/websanova/wExtensions/tree/master/html5/roundedRect#ctxroundedrect)
 [`star`](https://github.com/websanova/wExtensions/tree/master/html5/star#ctxstar)
+[`trapezoid`](https://github.com/websanova/wExtensions/tree/master/html5/trapezoid#ctxtrapezoid)
 [`triangle`](https://github.com/websanova/wExtensions/tree/master/html5/triangle#ctxtriangle)
 
 
