@@ -1,4 +1,4 @@
-CanvasRenderingContext2D.prototype.ninjastar = function(x, y, width, height) {
+CanvasRenderingContext2D.prototype.ninjaStar = function(x, y, width, height) {
   // if values are not set just exit
   if(!x || !y || !width || !height) { return true; }
 

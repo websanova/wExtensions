@@ -31,12 +31,9 @@ module.exports = function(grunt) {
       }
     },
     uglify: {
-      options: {
-        banner: '/* <%= grunt.template.today("yyyy-mm-dd") %> */'
-      },
       my_target: {
         files: {
-          './js-functions/**/*.js': ['./src/wPaint.js']
+          // unfortunately no wild card support yet
         }
       }
     }
@@ -46,5 +43,5 @@ module.exports = function(grunt) {
   grunt.loadNpmTasks('grunt-contrib-jshint');
   grunt.loadNpmTasks('grunt-contrib-uglify');
 
-  grunt.registerTask('default', [ 'qunit', 'jshint', 'uglify' ]);
+  grunt.registerTask('default', [ 'jshint', 'qunit' ]);
 };
