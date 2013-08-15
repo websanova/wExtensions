@@ -26,6 +26,8 @@ A collection of JavaScript extensions.
 [`hasClassRegex`](https://github.com/websanova/wExtensions/tree/master/jquery-methods/hasClassRegex#hasclassregex)
 [`hasScrollbar`](https://github.com/websanova/wExtensions/tree/master/jquery-methods/hasScrollbar#hasscrollbar)
 [`lineCount`](https://github.com/websanova/wExtensions/tree/master/jquery-methods/lineCount#linecount)
+[`realHeight`](https://github.com/websanova/wExtensions/tree/master/jquery-methods/realHeight#realheight)
+[`realWidth`](https://github.com/websanova/wExtensions/tree/master/jquery-methods/realWidth#realwidth)
 [`mousestop`](https://github.com/websanova/mousestop#mousestopjs)
 [`removeClassRegex`](https://github.com/websanova/wExtensions/tree/master/jquery-methods/removeClassRegex#removeclassregex)
 

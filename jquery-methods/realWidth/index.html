@@ -1,0 +1,33 @@
+<!doctype html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <title>.realWidth()</title>
+
+    <script src="../../assets/jquery.1.9.1.min.js"></script>
+    <script src="./realWidth.js"></script>
+</head>
+<body>
+    <h1>.realWidth()</h1>
+
+    <script type="text/javascript">
+        var $div = $('<div style="border:solid black 5px; margin:5px; padding:5px;">testing123</div>');
+
+        // test before append
+        console.log('            width: ' + $div.width());
+        console.log('       outerWidth: ' + $div.outerWidth());
+        console.log('margin outerWidth: ' + $div.outerWidth(true));
+        console.log('       innerWidth: ' + $div.innerWidth());
+        console.log('            width: ' + $div.realWidth());
+        console.log('       outerWidth: ' + $div.realWidth('outer'));
+        console.log('margin outerWidth: ' + $div.realWidth('outer', true));
+        console.log('       innerWidth: ' + $div.realWidth('inner'));
+
+        $('body').append($div);
+
+        // test after append
+        console.log($div.width());
+        console.log($div.realWidth());
+    </script>
+</body>
+</html>

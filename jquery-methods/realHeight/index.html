@@ -1,0 +1,33 @@
+<!doctype html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <title>.realHeight()</title>
+
+    <script src="../../assets/jquery.1.9.1.min.js"></script>
+    <script src="./realHeight.js"></script>
+</head>
+<body>
+    <h1>.realHeight()</h1>
+
+    <script type="text/javascript">
+        var $div = $('<div style="border:solid black 5px; margin:5px; padding:5px;">testing123</div>');
+
+        // test before append
+        console.log('            height: ' + $div.height());
+        console.log('       outerHeight: ' + $div.outerHeight());
+        console.log('margin outerHeight: ' + $div.outerHeight(true));
+        console.log('       innerHeight: ' + $div.innerHeight());
+        console.log('            height: ' + $div.realHeight());
+        console.log('       outerHeight: ' + $div.realHeight('outer'));
+        console.log('margin outerHeight: ' + $div.realHeight('outer', true));
+        console.log('       innerHeight: ' + $div.realHeight('inner'));
+
+        $('body').append($div);
+
+        // test after append
+        console.log($div.height());
+        console.log($div.realHeight());
+    </script>
+</body>
+</html>

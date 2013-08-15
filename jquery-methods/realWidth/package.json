@@ -1,0 +1,13 @@
+{
+  "name": "realWidth",
+  "version": "1.0.0",
+  "description": "Get the real width of an element, by cloning and appending to body as absolute block, returning size and then removing from body.  Also supports both `inner` and `outer` widths along with `margin` option.",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/websanova/wExtensions/tree/master/jquery-methods/realWidth"
+  },
+  "author": {
+    "name" : "Websanova",
+    "url" : "http://websanova.com"
+  }
+}
