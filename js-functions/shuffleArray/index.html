@@ -1,22 +1,22 @@
 <!doctype html>
 <html>
 <head>
-     <meta charset="utf-8">
-      <title>.shuffleArray()</title>
+  <meta charset="utf-8">
+  <title>.shuffleArray()</title>
 
-    <script src="../../assets/jquery.1.9.1.min.js"></script>
-    <script src="./shuffleArray.js"></script>
+  <script src="../../assets/jquery.1.9.1.min.js"></script>
+  <script src="./shuffleArray.js"></script>
 </head>
 <body>
-    <h1>.shuffleArray()</h1>
+  <h1>.shuffleArray()</h1>
 
-    [1, 2, 3, 4, 5] <input type="button" value="shuffle" onclick="shuffle()"/>
-    <div id="shuffle-output"></div>
+  [1, 2, 3, 4, 5] <input type="button" value="shuffle" onclick="shuffle()"/>
+  <div id="shuffle-output"></div>
 
-    <script type="text/javascript">
-        function shuffle() {
-            $('#shuffle-output').html('[' + window.shuffleArray([1, 2, 3, 4, 5]).join(', ') + ']');
-        }
-    </script>
+  <script type="text/javascript">
+    function shuffle() {
+      $('#shuffle-output').html('[' + window.shuffleArray([1, 2, 3, 4, 5]).join(', ') + ']');
+    }
+  </script>
 </body>
 </html>

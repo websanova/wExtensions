@@ -1,11 +1,5 @@
-if(!String.prototype.reverse)
-{
-	Object.defineProperty(String.prototype, 'reverse',
-	{
-		value: function()
-		{
-			return this.split( '' ).reverse().join( '' );
-		},
-		enumerable: false
-	});
+if(!String.prototype.reverse) {
+	String.prototype.reverse = function() {
+		return this.split( '' ).reverse().join( '' );
+	}
 }
