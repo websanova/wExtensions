@@ -4,5 +4,5 @@ if(!String.prototype.trimChar) {
 		else if (c.match(/[\$\+\(\)\+\.\*\^\?\\]/)) { c = '\\' + c; }
 		
 		return this.replace(new RegExp('^' + c + '+|' + c + '+$', 'g'), "");
-	}
+	};
 }
