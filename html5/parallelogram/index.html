@@ -10,36 +10,35 @@
 <body>
   <h1>ctx.parallelogram()</h1>
 
-  <style>
-      canvas {
-          border: solid 1px;  
-      }
-  </style>
-
-  <canvas id="canvas" width="300" height="200"></canvas>
+  <canvas id="canvas" width="300" height="200" style="border:solid 1px;"></canvas>
 
   <script type="text/javascript">
-    var ctx = document.getElementById("canvas").getContext("2d");
-    
-    ctx.fillStyle = '#ff0000';
-    ctx.strokeStyle = '#000000';
-    ctx.parallelogram(3, 3, 100, 50);
-    ctx.fill();
-    ctx.stroke();
+    if (document.getElementById("canvas").getContext) {
+      var ctx = document.getElementById("canvas").getContext("2d");
+      
+      ctx.fillStyle = '#ff0000';
+      ctx.strokeStyle = '#000000';
+      ctx.parallelogram(3, 3, 100, 50);
+      ctx.fill();
+      ctx.stroke();
 
-    ctx.fillStyle = '#00ff00';
-    ctx.strokeStyle = '#000000';
-    ctx.lineWidth = 3;
-    ctx.parallelogram(80, 50, 100, 100);
-    ctx.fill();
-    ctx.stroke();
+      ctx.fillStyle = '#00ff00';
+      ctx.strokeStyle = '#000000';
+      ctx.lineWidth = 3;
+      ctx.parallelogram(80, 50, 100, 100);
+      ctx.fill();
+      ctx.stroke();
 
-    ctx.fillStyle = '#0000ff';
-    ctx.strokeStyle = '#000000';
-    ctx.lineWidth = 5;
-    ctx.parallelogram(210, 90, 50, 100);
-    ctx.fill();
-    ctx.stroke();
+      ctx.fillStyle = '#0000ff';
+      ctx.strokeStyle = '#000000';
+      ctx.lineWidth = 5;
+      ctx.parallelogram(210, 90, 50, 100);
+      ctx.fill();
+      ctx.stroke();
+    }
+    else {
+      $('body').append('This browser does not support HTML5 canvas.');
+    }
   </script>
 </body>
 </html>
