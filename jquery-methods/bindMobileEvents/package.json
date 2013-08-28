@@ -1,0 +1,13 @@
+{
+  "name": "bindMobileEvents",
+  "version": "1.0.0",
+  "description": "A simple event binder for mobile devices that binds touchstart to mousedown, touchend to mouseup and touchmove to mousemove.  It also disables default touchmove to avoid scrolling the page in cases like a drag.",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/websanova/wExtensions/tree/master/jquery-methods/bindMobileEvents"
+  },
+  "author": {
+    "name" : "Websanova",
+    "url" : "http://websanova.com"
+  }
+}

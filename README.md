@@ -21,6 +21,7 @@ A collection of JavaScript extensions.
 
 #### jQuery Methods
 
+[`bindMobileEvents`](https://github.com/websanova/wExtensions/tree/master/jquery-methods/bindMobileEvents#bindmobileevents)
 [`caretPosition`](https://github.com/websanova/wExtensions/tree/master/jquery-methods/caretPosition#caretposition)
 [`charsPerLine`](https://github.com/websanova/wExtensions/tree/master/jquery-methods/charsPerLine#charsperline)
 [`hasClassRegex`](https://github.com/websanova/wExtensions/tree/master/jquery-methods/hasClassRegex#hasclassregex)
