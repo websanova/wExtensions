@@ -10,7 +10,7 @@
         case "touchmove":
           type = "mousemove";
 
-          // to prevent screen from scrolling when drawing
+          // to prevent screen from scrolling
           event.preventDefault();
           break;
         case "touchend": type = "mouseup"; break;
